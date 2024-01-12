@@ -1,0 +1,48 @@
+11) Explain what T2 instances is?
+T2 instances are designed to provide moderate baseline performance and the capability to burst to higher performance as required by the workload.
+
+12) In VPC with private and public subnets, database servers should ideally be launched into which subnet?
+With private and public subnets in VPC, database servers should ideally launch into private subnets.
+
+13) Mention what the security best practices for Amazon EC2 are?
+For secure Amazon EC2 best practices, follow the following steps
+
+Use AWS identity and access management to control access to your AWS resources
+Restrict access by allowing only trusted hosts or networks to access ports on your instance
+Review the rules in your security groups regularly
+Only open up permissions that you require
+Disable password-based login, for example, launched from your AMI
+14) Explain how the buffer is used in Amazon web services?
+The buffer is used to make the system more robust to manage traffic or load by synchronizing different components.  Usually, components receive and process the requests in an unbalanced way. With the help of a buffer, the components will be balanced and will work at the same speed to provide faster services.
+
+15) While connecting to your instance what are the possible connection issues one might face?
+The possible connection errors one might encounter while connecting instances are
+
+Connection timed out
+User key not recognized by the server
+Host key not found, permission denied
+An unprotected private key file
+Server refused our key or No supported authentication method available
+Error using MindTerm on Safari Browser
+Error using Mac OS X RDP Client
+16) What are key-pairs in AWS?
+Key-pairs are secure login information for your virtual machines. To connect to the instances, you can use key-pairs which contain a public-key and private-key.
+
+17)  What are the different types of instances?
+Following are the types of instances:
+
+General purpose
+Computer Optimized
+Memory Optimized
+Storage Optimized
+Accelerated Computing
+18) Is the property of broadcast or multicast supported by Amazon VPC?
+No, currently Amazon VPI does not provide support for broadcast or multicast.
+
+19) How many Elastic IPs are allowed to be created by AWS?
+5 VPC Elastic IP addresses are allowed for each AWS account.
+
+20) Explain default storage class in S3
+The default storage class is a Standard frequently accessed.
+
+
